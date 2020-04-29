@@ -1,10 +1,10 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar class="transparent">
     <ion-title class="ion-text-center">
       Casos de coronavirus
    </ion-title>
   </ion-toolbar>
-  <ion-toolbar color>
+  <ion-toolbar class="transparent">
     <ion-searchbar [(ngModel)]="NombrePais" placeholder="Buscar" animated></ion-searchbar>
      <ion-buttons slot="end">
        <ion-button  (click)="searchPais()">
@@ -15,7 +15,7 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-card>
+  <ion-card class="transparent">
       <ion-card-header>
         <ion-card-title class="ion-text-center"><b>{{Am.country}}</b></ion-card-title>
         
@@ -24,6 +24,6 @@
           <ion-card-subtitle><b>Recuperados:</b> {{Am.recovered}}</ion-card-subtitle>
       </ion-card-header>
   </ion-card>
-  <ion-button color="danger" expand="full" shape="round"> 
+  <ion-button color="danger" expand="full" shape="round" routerLink= "/recomendaciones"> 
     <ion-icon slot="end" name="information-circle"></ion-icon> Recomendaciones </ion-button>
 </ion-content>

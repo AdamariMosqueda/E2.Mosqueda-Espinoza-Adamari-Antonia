@@ -1,9 +1,13 @@
 ion-content{
   --background: url(../../assets/pastillas.jpg) no-repeat center center/cover;
 }
+
+.transparent {
+    
+  --background: transparent;
+  --ion-color-base: transparent !important;
+}
 ion-toolbar {
---background: transparent;
---ion-color-base: transparent !important;
 background-color: rgba(255, 164, 220, 0.8);
 }
 
@@ -13,8 +17,6 @@ background-color: rgba(255, 164, 220, 0.8);
 }
 
 ion-card {
-  --background: transparent;
---ion-color-base: transparent !important;
 background-color: rgba(255, 255, 255, 0.8);
 }
 
