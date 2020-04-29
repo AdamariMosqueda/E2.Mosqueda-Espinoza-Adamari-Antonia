@@ -1,0 +1,26 @@
+ion-content{
+  --background: url(../../assets/pastillas.jpg) no-repeat center center/cover;
+}
+ion-toolbar {
+--background: transparent;
+--ion-color-base: transparent !important;
+background-color: rgba(255, 164, 220, 0.8);
+}
+
+.ion-text-center {
+  color: black;
+  font-size: x-large;
+}
+
+ion-card {
+  --background: transparent;
+--ion-color-base: transparent !important;
+background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+ion-card-subtitle {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
